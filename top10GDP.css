@@ -1,0 +1,57 @@
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 5px;
+}
+
+.grid line {
+	stroke: lightgrey;
+	stroke-opacity: 0.7;
+	shape-rendering: crispEdges;
+}
+
+.grid path {
+	stroke-width: 0;
+}
+
+.legendPM {
+	font-size: 9pt;
+}
+
+div.tooltip-path {
+	position: absolute;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+div.tooltip-circle {
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+#reference {
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	font-size: 8pt;
+	text-align: right;
+}
+
+.tick {
+	font-size: 10pt;
+}
